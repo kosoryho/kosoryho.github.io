@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>task3</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<form>
+    <p><label for="text">Name <br><input type="text" name="name" id="text"><br></p>
+
+    <p><label for="email">Email</label> <br><input type="email" name="email" id="email"><br></p>
+
+    <p> Sex <br><input type="radio" name="sex"> Male <input type="radio" name="sex"> Female<br></p>
+
+    <p> Current status <br><input type="checkbox" name="status"> Student<br><input type="checkbox" name="status">
+        Employed<br><input type="checkbox" name="status"> Unemployed<br></p>
+
+    <p>Month and year of birth<br>
+        <select name="month">
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+        </select>
+        <select name="year">
+            <option>1990</option>
+            <option>1991</option>
+            <option>1992</option>
+            <option>1993</option>
+        </select>
+    </p>
+    <p>Skills and Technologies<br>
+        <select name="skills" size="10" multiple>
+            <optgroup label="Tech skills">
+                <option>Css</option>
+                <option>HTML</option>
+                <option>Java Script</option>
+                <option>git</option>
+            </optgroup>
+            <optgroup label="Soft skills">
+                <option>Time management</option>
+                <option>Proactivity</option>
+                <option>Teamwork</option>
+                <option>Leadership</option>
+            </optgroup>
+        </select>
+    </p>
+    <p> Photo<br> <input type="file" name="Choose file">
+    </p>
+
+    <p><label for="com">Comments <br> <textarea name="comments" rows="3" id="com"></textarea></p>
+
+    <p><input type="submit" value="Save"></p>
+</form>
+</body>
+</html>
+
