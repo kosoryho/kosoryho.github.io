@@ -37,3 +37,18 @@ em {
 #warehouse .fruits-list>li{
     color: green;
 }
+
+thead {
+    text-align: center;
+    font-weight: bold;
+}
+
+tbody tr td:first-child {
+    color: orange;
+}
+
+tbody td:first-child~td {
+    background-color: green;
+    text-align: center;
+    color: white;
+}
