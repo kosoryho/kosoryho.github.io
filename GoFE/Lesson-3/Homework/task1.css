@@ -1,0 +1,39 @@
+h1 {
+     text-align: right;
+     color: orange;
+ }
+
+p:first-letter {
+    font-size: 30px;
+    color: red;
+}
+
+em {
+    background-color: green;
+    color: white;
+}
+
+#allotment h2 {
+    color: orange;
+}
+
+.plants-list ul>li {
+    font-weight: bold;
+
+}
+
+#allotment .fruits-list>li {
+    color: gray;
+}
+
+.vegetables-list>li {
+    color: red;
+}
+
+#warehouse h2{
+    color: blue;
+}
+
+#warehouse .fruits-list>li{
+    color: green;
+}
