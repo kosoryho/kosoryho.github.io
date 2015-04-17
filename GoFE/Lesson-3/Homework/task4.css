@@ -1,0 +1,15 @@
+a[href$="ru"] {
+    color: #f70;
+}
+
+a[href*="google"] {
+    color: #666;
+}
+
+a[href*="yandex"]:after {
+    display: inline-block;
+    content: '  \21F1';
+    transform: rotate(90deg);
+    text-decoration: none;
+    margin: 0 5px;
+}
