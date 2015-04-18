@@ -1,7 +1,7 @@
-p:nth-child(2) {
+article p:first-child {
     text-transform: uppercase;
 }
 
-p:nth-child(4) {
+p:last-child {
     color: #999;
 }

@@ -12,4 +12,5 @@ a[href*="yandex"]:after {
     transform: rotate(90deg);
     text-decoration: none;
     margin: 0 5px;
+    font-family: serif;
 }

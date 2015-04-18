@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f65f77ed-ca73-45d6-8d86-c7c39f89eea1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task5.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task6.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task2.css" afterPath="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task2.html" afterPath="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task4.css" afterPath="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task4.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task4.html" afterPath="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task4.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kosoryho.github.io.iws" />
@@ -29,8 +30,8 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="task4.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task4.html">
+          <file leaf-file-name="task1.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task1.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-3.2692308">
                   <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="44" />
@@ -39,11 +40,41 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="task5.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="task2.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task2.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-3.2692308">
+                  <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="44" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="task4.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task4.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-3.2692308">
+                  <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="task5.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task5.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.06487696">
-                  <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+                <state vertical-scroll-proportion="-0.65384614">
+                  <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="task6.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task6.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.6465324">
+                  <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -53,11 +84,51 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="task5.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="task1.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task1.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="task2.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task2.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="task4.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task4.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="task5.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task5.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.110869564">
-                  <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="task6.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task6.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.018478261">
+                  <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -82,12 +153,14 @@
         <option value="$PROJECT_DIR$/GoFE/Lesson-2/Homework/task4.html" />
         <option value="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task1.html" />
         <option value="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task1.css" />
-        <option value="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task2.html" />
-        <option value="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task2.css" />
         <option value="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task4.html" />
-        <option value="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task4.css" />
         <option value="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task5.html" />
         <option value="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task5.css" />
+        <option value="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task2.html" />
+        <option value="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task2.css" />
+        <option value="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task4.css" />
+        <option value="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task6.html" />
+        <option value="$PROJECT_DIR$/GoFE/Lesson-3/Homework/task6.css" />
       </list>
     </option>
   </component>
@@ -346,7 +419,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429292653227</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="111111">
+      <created>1429299344626</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1429299344626</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -466,10 +545,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0950783">
+        <state vertical-scroll-proportion="-3.2692308">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task5.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -482,50 +609,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task2.css">
+    <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.110869564">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.6465324">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task4.html">
+    <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task6.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task4.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.036956523">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5195652">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.06487696">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoFE/Lesson-3/Homework/task5.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.110869564">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.018478261">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding />
         </state>
       </provider>
