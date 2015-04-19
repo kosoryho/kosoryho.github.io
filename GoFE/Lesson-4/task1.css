@@ -1,0 +1,26 @@
+div {
+    background-color: #a64dff;
+    margin-top: 17px;
+}
+
+nav {
+    width: 900px;
+    margin: 0 auto;
+}
+
+li {
+    margin: 0 auto;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px 17px;
+    font-family: Arial;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: #ededed;
+    color: #a0a0a0;
+}
