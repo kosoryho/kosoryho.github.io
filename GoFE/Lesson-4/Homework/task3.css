@@ -1,0 +1,11 @@
+div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+
+}

@@ -8,6 +8,11 @@ nav {
     margin: 0 auto;
 }
 
+@font-face {
+    font-family: Impact;
+    src: url(http://kosoryho.github.io/GoFE/Lesson-4/Homework/ImpactRegular.ttf);
+}
+
 li {
     list-style-type: none;
     display: inline-block;
@@ -15,7 +20,7 @@ li {
     text-transform: uppercase;
     font-size: 18px;
     padding: 10px 17px;
-    font-family: Arial;
+    font-family: Impact;
 }
 
 li:hover {
