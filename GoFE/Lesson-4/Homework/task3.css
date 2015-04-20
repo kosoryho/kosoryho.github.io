@@ -1,6 +1,7 @@
 div {
     margin: 0 auto;
     text-align: center;
+    background-color: #fafafa;
 }
 
 li {
@@ -9,10 +10,19 @@ li {
     text-transform: uppercase;
     color: #a64dff;
     font-size: 20px;
-    padding: 2px 10px;
+    padding: 4px 9px;
+    font-family: Arial;
+    cursor: pointer;
 }
 
 .button {
     border: 1px solid #a0a0a0;
     border-radius: 5px;
 }
+
+.button:hover {
+    background-color: #a64dff;
+    color: white;
+}
+
+
