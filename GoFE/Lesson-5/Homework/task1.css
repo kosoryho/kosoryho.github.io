@@ -39,7 +39,7 @@
     font-family: Arial;
     background-color: #ededed;
     top: 42px;
-    left: 0 ;
+    left: 0;
 }
 
 .drop-buttons li {
@@ -51,7 +51,7 @@
     font-family: Arial;
 }
 
-.buttons li:hover>ul {
+.buttons li:hover > ul {
     display: block;
 }
 
