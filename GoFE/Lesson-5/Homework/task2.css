@@ -6,14 +6,14 @@
     border-radius: 5px;
     font-family: 'Trebuchet MS';
     margin: 0 auto;
-    /*font-size: 0;*/
+    font-size: 0;
 }
 
 h2 {
     text-align: center;
     font-size: 24px;
     color: #fff;
-    padding: 28px 0;
+    padding: 22px 0;
     margin: 0;
     font-weight: bold;
 }
@@ -21,7 +21,7 @@ h2 {
 .inner {
     background-color: #fff;
     margin: 0;
-    padding: 0 14px;
+    padding: 0 14px 30px 14px;
 }
 
 .inner h2 {
@@ -57,7 +57,7 @@ ul {
     font-size: 15px;
     color: #888c94;
     padding: 0;
-    margin-top: 27px;
+    margin: 27px 0 18px 0;
 }
 
 li {
@@ -76,4 +76,18 @@ li:nth-child(even) {
 li:before {
     content: url(before.png);
     margin-right: 17px;
+}
+
+.button {
+    width: 252px;
+    margin: 0 auto;
+    background-color: #ee8129;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 11px 0;
+    border-bottom: 3px solid #b3560b;
+
 }
