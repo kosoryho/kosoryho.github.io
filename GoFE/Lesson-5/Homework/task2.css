@@ -62,7 +62,7 @@ ul {
 
 li {
     border-bottom: 1px solid white;
-    padding: 8px 0 8px 33px;
+    padding: 7px 0 7px 33px;
 }
 
 li:nth-child(odd) {
@@ -89,5 +89,8 @@ li:before {
     border-radius: 5px;
     padding: 11px 0;
     border-bottom: 3px solid #b3560b;
+}
 
+.button:hover {
+    cursor: pointer;
 }
