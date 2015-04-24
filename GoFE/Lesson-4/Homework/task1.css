@@ -8,10 +8,6 @@ nav {
     margin: 0 auto;
 }
 
-@font-face {
-    font-family: Impact;
-    src: url(http://kosoryho.github.io/GoFE/Lesson-4/Homework/ImpactRegular.ttf);
-}
 
 li {
     list-style-type: none;

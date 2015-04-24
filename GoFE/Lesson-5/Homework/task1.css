@@ -1,0 +1,61 @@
+.menu {
+    background-color: #1aa4ff;
+}
+
+.buttons {
+    position: relative;
+    padding: 0;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.buttons li {
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px 11px;
+    font-family: Impact;
+
+}
+
+.buttons li:last-child {
+    float: right;
+}
+
+.buttons li:hover {
+    cursor: pointer;
+    background-color: #ededed;
+    color: #a0a0a0;
+}
+
+.drop-buttons {
+    position: absolute;
+    display: none;
+    padding: 0;
+    width: 900px;
+    margin: 0 auto;
+    font-family: Arial;
+    background-color: #ededed;
+    top: 42px;
+    left: 0 ;
+}
+
+.drop-buttons li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 6px 10px;
+    font-size: 14px;
+    color: #a0a0a0;
+    font-family: Arial;
+}
+
+.buttons li:hover>ul {
+    display: block;
+}
+
+.drop-buttons li:hover {
+    color: #1aa4ff;
+}
+
