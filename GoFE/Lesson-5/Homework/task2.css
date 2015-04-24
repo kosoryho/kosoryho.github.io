@@ -5,6 +5,7 @@
     border: 4px solid #ee8129;
     border-radius: 5px;
     font-family: 'Trebuchet MS';
+    margin: 0 auto;
     /*font-size: 0;*/
 }
 
@@ -61,7 +62,7 @@ ul {
 
 li {
     border-bottom: 1px solid white;
-    padding: 8px 0 8px 64px;
+    padding: 8px 0 8px 33px;
 }
 
 li:nth-child(odd) {
@@ -73,6 +74,6 @@ li:nth-child(even) {
 }
 
 li:before {
-    content: '';
-    background-image: url(before.png);
+    content: url(before.png);
+    margin-right: 17px;
 }
