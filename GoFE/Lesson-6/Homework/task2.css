@@ -1,0 +1,58 @@
+.feedback {
+    position: relative;
+    background-image: url(feedback_bg.png);
+    font-size: 0;
+    font-family: 'Trebuchet MS';
+    margin: 0 auto;
+    max-width: 1400px;
+    min-width: 500px;
+    min-height: 315px;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.feedback_title {
+    font-size: 40px;
+    color: #3170a8;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.feedback_title span {
+    color: #ee8129;
+}
+
+.feedback_item {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    width: 43%;
+    text-align: center;
+}
+
+.feedback_image {
+    display: inline-block;
+    height: 98px;
+    padding-right: 30px;
+}
+
+.feedback_container {
+    position: absolute;
+    width: 362px;
+    height: 96px;
+    border: 1px solid #e0e0e0;
+    display: inline-block;
+    background-color: #f7f7f7;
+}
+
+.feedback_container:before {
+    content: '';
+    position: absolute;
+    border: 14px solid transparent;
+    border-right: 20px solid #f7f7f7;
+    left: -34px;
+    top: 34px;
+}
+
+
