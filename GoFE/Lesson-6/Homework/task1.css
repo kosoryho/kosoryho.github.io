@@ -1,21 +1,68 @@
-.main {
+.offer {
+    font-family: 'Trebuchet MS';
+    font-size: 0;
+}
+
+.title {
+    font-size: 30px;
+    color: #41525c;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.prices {
+    text-align: center;
+    position: relative;
+    margin: 53px 0;
+}
+
+.price {
     position: relative;
     background-color: #ee8129;
     width: 288px;
     border: 4px solid #ee8129;
     border-radius: 5px;
-    font-family: 'Trebuchet MS';
     margin: 0 auto;
     font-size: 0;
+    display: inline-block;
 }
 
-h2 {
+.price-left {
+    background-color: #37c2d3;
+    border: 2px solid #e8eaec;
+    border-right: 0;
+    border-radius: 7px;
+}
+
+.price-right {
+    background-color: #1cb79a;
+    border: 2px solid #e8eaec;
+    border-left: 0;
+    border-radius: 7px;
+}
+
+.price-main {
+    box-shadow: 0 0 7px #899194;
+}
+
+.price-title {
     text-align: center;
     font-size: 24px;
     color: #fff;
     padding: 22px 0;
     margin: 0;
     font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price-left .price-title {
+    padding-bottom: 8px;
+}
+
+.price-right .price-title {
+    padding-bottom: 8px;
 }
 
 .inner {
@@ -24,7 +71,15 @@ h2 {
     padding: 0 14px 30px 14px;
 }
 
-.inner h2 {
+.price-left .inner {
+    padding: 0 14px 10px 14px;
+}
+
+.price-right .inner {
+    padding: 0 14px 10px 14px;
+}
+
+.inner-title {
     font-size: 24px;
     color: #48494a;
     text-align: center;
@@ -42,8 +97,8 @@ h2 {
 }
 
 .top-index  {
-    vertical-align: super;
-    font-size: 36px;
+    vertical-align: 1.8em;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -53,7 +108,8 @@ h2 {
     font-weight: normal;
 }
 
-ul {
+.feature {
+    text-align: left;
     list-style-type: none;
     font-size: 15px;
     color: #888c94;
@@ -61,25 +117,25 @@ ul {
     margin: 27px 0 18px 0;
 }
 
-li {
+.feature>li {
     border-bottom: 1px solid white;
     padding: 7px 0 7px 33px;
 }
 
-li:nth-child(odd) {
+.feature>li:nth-child(odd) {
     background-color: #edf5fd;
 }
 
-li:nth-child(even) {
+.feature>li:nth-child(even) {
     background-color: #f5f5f6;
 }
 
-li:before {
+.feature>li:before {
     content: url(before.png);
     margin-right: 17px;
 }
 
-.button {
+.enrol_button {
     width: 252px;
     margin: 0 auto;
     background-color: #ee8129;
@@ -92,6 +148,11 @@ li:before {
     border-bottom: 3px solid #b3560b;
 }
 
-.button:hover {
+.enrol_button:hover {
     cursor: pointer;
+}
+
+.button-blue {
+    background-color: #3371a6;
+    border-color: #16436a;
 }

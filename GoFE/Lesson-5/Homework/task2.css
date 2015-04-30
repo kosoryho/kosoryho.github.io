@@ -1,4 +1,4 @@
-.main {
+.price-main {
     position: relative;
     background-color: #ee8129;
     width: 288px;
@@ -9,7 +9,7 @@
     font-size: 0;
 }
 
-h2 {
+.price-title {
     text-align: center;
     font-size: 24px;
     color: #fff;
@@ -24,7 +24,7 @@ h2 {
     padding: 0 14px 30px 14px;
 }
 
-.inner h2 {
+.inner-title {
     font-size: 24px;
     color: #48494a;
     text-align: center;
@@ -43,7 +43,7 @@ h2 {
 
 .top-index  {
     vertical-align: super;
-    font-size: 36px;
+    font-size: .4em;
     font-weight: bold;
 }
 
@@ -79,7 +79,7 @@ li:before {
     margin-right: 17px;
 }
 
-.button {
+.button-orange {
     width: 252px;
     margin: 0 auto;
     background-color: #ee8129;
@@ -92,6 +92,6 @@ li:before {
     border-bottom: 3px solid #b3560b;
 }
 
-.button:hover {
+.button-orange:hover {
     cursor: pointer;
 }
