@@ -58,11 +58,11 @@
 }
 
 .price-left .price-title {
-    padding-bottom: 8px;
+    padding-bottom: 10px;
 }
 
 .price-right .price-title {
-    padding-bottom: 8px;
+    padding-bottom: 10px;
 }
 
 .inner {
@@ -72,11 +72,11 @@
 }
 
 .price-left .inner {
-    padding: 0 14px 10px 14px;
+    padding: 0 14px 14px 14px;
 }
 
 .price-right .inner {
-    padding: 0 14px 10px 14px;
+    padding: 0 14px 14px 14px;
 }
 
 .inner-title {
