@@ -87,7 +87,7 @@
     font-weight: normal;
 }
 
-.inner p  {
+.inner p {
     font-size: 72px;
     text-align: center;
     color: #35495a;
@@ -96,7 +96,7 @@
     padding: 0;
 }
 
-.top-index  {
+.top-index {
     vertical-align: 1.8em;
     font-size: 22px;
     font-weight: bold;
@@ -117,20 +117,20 @@
     margin: 27px 0 18px 0;
 }
 
-.feature>li {
+.feature > li {
     border-bottom: 1px solid white;
     padding: 7px 0 7px 33px;
 }
 
-.feature>li:nth-child(odd) {
+.feature > li:nth-child(odd) {
     background-color: #edf5fd;
 }
 
-.feature>li:nth-child(even) {
+.feature > li:nth-child(even) {
     background-color: #f5f5f6;
 }
 
-.feature>li:before {
+.feature > li:before {
     content: url(before.png);
     margin-right: 17px;
 }
