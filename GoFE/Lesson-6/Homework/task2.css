@@ -1,13 +1,10 @@
 .feedback {
-    position: relative;
-    background-image: url(feedback_bg.png);
+    background:  url(feedback_bg.png) ;
     font-size: 0;
     font-family: 'Trebuchet MS';
     margin: 0 auto;
     max-width: 1400px;
-    min-width: 500px;
     min-height: 315px;
-    max-height: 600px;
     overflow: hidden;
 }
 
@@ -23,27 +20,34 @@
     color: #ee8129;
 }
 
+.feedback_image, .feedback_container {
+    display: inline-block;
+}
+
 .feedback_item {
-    position: relative;
     display: inline-block;
     margin: 0 auto;
-    width: 43%;
+    width: 50%;
     text-align: center;
 }
 
 .feedback_image {
     display: inline-block;
     height: 98px;
+    width: 98px;
     padding-right: 30px;
 }
 
 .feedback_container {
-    position: absolute;
-    width: 362px;
-    height: 96px;
-    border: 1px solid #e0e0e0;
+    position: relative;
+    max-width: 46.859%;
+    min-height: 62px;
     display: inline-block;
     background-color: #f7f7f7;
+    vertical-align: top;
+    font-size: 13px;
+    text-align: left;
+    padding: 18px;
 }
 
 .feedback_container:before {
@@ -52,7 +56,36 @@
     border: 14px solid transparent;
     border-right: 20px solid #f7f7f7;
     left: -34px;
-    top: 34px;
+    bottom: 34%;
 }
 
+.feedback_container_header {
+    list-style-type: none;
+    font-style: italic;
+    color: #3070a8;
+    margin: 0;
+    padding: 0 0 7px 0;
+}
+
+.feedback_container_header li {
+    display: inline-block;
+}
+
+.feedback_container_header_status {
+    float: right;
+}
+
+.feedback_container_text {
+    vertical-align: sub;
+    padding-top: 7px;
+    border-top: 1px dotted #666;
+}
+
+@media (max-width: 690px) {
+    .feedback_item {
+        display: block;
+        width: 100%;
+        padding: 20px 0;
+    }
+}
 
