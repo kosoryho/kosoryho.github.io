@@ -1,0 +1,92 @@
+.header {
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    font-size: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+    padding: 0 189px;
+    overflow: hidden;
+}
+
+.logo {
+    font-size: 36px;
+    float: left;
+    color: #ee8129;
+    width: 40%;
+    vertical-align: top;
+}
+
+.logo span {
+    text-transform: uppercase;
+    color: #3070a8;
+    font-weight: bold;
+}
+
+.navigation {
+    float: right;
+}
+
+.navigation_button {
+    display: inline-block;
+    padding: 0 22px 40px 22px;
+    color: #989898;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 16px;
+    border-bottom: 4px solid white;
+}
+
+.navigation_button:hover {
+    color: #3070a8;
+    border-bottom: 4px solid #3070a8;
+}
+
+.banner {
+    max-width: 1400px;
+    min-height: 512px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+    background-image: url("Banner.png");
+    text-align: center;
+    color: white;
+    font-size: 0;
+    overflow: hidden;
+    line-height: 1.5;
+}
+
+.banner_p1 {
+    padding-top: 6%;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.banner_p2 {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+}
+
+.banner_p3 {
+    font-style: italic;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.banner_button{
+    width: 12em;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: 1px solid white;
+    padding: 1em 1.5em;
+    margin: 1.8em auto auto auto;
+}
+
+.banner_button:hover{
+    background-color: rgba(152, 152, 152, 0.7);
+    cursor: pointer;
+}
