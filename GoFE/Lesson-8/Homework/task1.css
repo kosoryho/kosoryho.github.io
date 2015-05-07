@@ -1,0 +1,30 @@
+.container {
+    font-size: 0;
+    background-color: #ffcd5d;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4px;
+    position: relative;
+}
+
+.container_input {
+    width: 81%;
+}
+
+.container_button {
+    margin-left: 10px;
+}
+
+.container_option {
+    font-size: 15px;
+    vertical-align: bottom;
+}
+
+.container:after {
+    content: '';
+    position: absolute;
+    right: -33px;
+    top: 0;
+    border: 24px solid transparent;
+    border-left: 10px solid #ffcd5d;
+}

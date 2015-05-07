@@ -1,0 +1,38 @@
+.container {
+    font-size: 0;
+    background-color: #ffcd5d;
+    background: -webkit-linear-gradient(#fecb48, #eabb42);
+    background: -moz-linear-gradient(#fecb48, #eabb42));
+    background: -o-linear-gradient(#fecb48, #eabb42);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4px;
+    position: relative;
+}
+
+.container_input {
+    width: 81%;
+}
+
+.container_button {
+    margin-left: 10px;
+}
+
+.container_option {
+    font-size: 15px;
+    vertical-align: bottom;
+}
+
+.container:after {
+    content: '';
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    background: -webkit-linear-gradient(#fecb48, #eabb42);
+    background: -moz-linear-gradient(#fecb48, #eabb42));
+    background: -o-linear-gradient(#fecb48, #eabb42);
+    transform: rotate(45deg);
+    right: -17px;
+    top: 7px;
+    z-index: -1;
+}
