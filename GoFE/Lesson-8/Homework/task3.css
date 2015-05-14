@@ -44,6 +44,29 @@
     border-bottom: 4px solid #3070a8;
 }
 
+@media (max-width: 1370px) {
+    .header {
+        padding: 0;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navigation {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navigation_button {
+        padding: 20px 0 40px 0;
+        width: 16.6%;
+    }
+}
+
+/**********Banner**********/
+
 .banner {
     max-width: 1400px;
     min-height: 512px;
@@ -57,8 +80,6 @@
     overflow: hidden;
     line-height: 1.5;
 }
-
-/**********Banner**********/
 
 .banner_p1 {
     padding-top: 6%;
@@ -93,6 +114,17 @@
 .banner_button:hover{
     background-color: rgba(152, 152, 152, 0.7);
     cursor: pointer;
+}
+
+@media (max-width: 610px) {
+    .banner_p1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .banner_button {
+        margin-top: 0;
+    }
 }
 
 /**********Services**********/
@@ -189,6 +221,18 @@
 
 .middle-section_list_item:hover {
     color: #3070a8;
+}
+
+@media (max-width: 1200px) {
+    .middle-section_container {
+        padding: 10px 0 10px 15px;
+    }
+}
+
+@media (max-width: 780px) {
+    .middle-section_container {
+        width: 100%;
+    }
 }
 
 /**********Offer**********/
@@ -353,6 +397,12 @@
     border-color: #16436a;
 }
 
+@media (max-width: 910px) {
+    .price {
+        display: block;
+    }
+}
+
 /**********Feedback**********/
 
 .feedback {
@@ -454,27 +504,102 @@
     font-family: 'Trebuchet MS';
     margin: 0 auto;
     max-width: 1400px;
-    min-height: 315px;
     overflow: hidden;
-    position: relative;
 }
 
-.contacts_waraper {
+.contacts_container {
     width: 50%;
-    background-color: red;
-    height: 100px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #888c94;
+    padding: 40px 0 0 250px;
     position: relative;
+    box-sizing: border-box;
+    float: left;
+}
+
+.contacts_company:before {
+    content: url("geotag.png");
+    position: absolute;
+    left: 190px;
+}
+
+.contacts_phone:before {
+    content: url("cellphone.png");
+    position: absolute;
+    left: 190px;
+}
+
+.contacts_email:before {
+    content: url("mail.png");
+    position: absolute;
+    left: 190px;
+}
+
+.contacts_social {
+    margin-left: -70px;
+}
+
+.contacts_social_item {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    margin: 15px 10px;
+}
+
+.contacts_social_item.fb {
+    background: #4967a9 url("facebook.png") center no-repeat;
+}
+
+.contacts_social_item.tw {
+    background: #1ab2e8 url("twit.png") center no-repeat;
+}
+
+.contacts_social_item.in {
+    background: #007ab9 url("lin.png") center no-repeat;
 }
 
 .contacts_map {
-    position: relative;
+    line-height: 1.8;
+    float: left;
     width: 50%;
-    background-color: green;
-    height: 100px;
-    float: right;
-
 }
 
+@media (max-width: 900px) {
+    .contacts_container {
+        padding-left: 10px;
+    }
+}
 
+/**********Footer**********/
 
+footer {
+    font-family: 'Open Sans';
+    margin: 0 auto;
+    max-width: 1400px;
+    overflow: hidden;
+    background-color: #3070a8;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
 
+.footer_copyright {
+    padding-top: 30px;
+    margin: 0;
+}
+
+.footer_copyright span {
+    font-weight: bold;
+}
+
+.footer_designed {
+    padding: 10px 0 20px;
+    margin: 0;
+}
+
+.footer_designed span {
+    color: #1d1c1c;
+    font-weight: bold;
+}
