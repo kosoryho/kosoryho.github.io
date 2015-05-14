@@ -187,6 +187,10 @@
     margin: 15px 0;
 }
 
+.middle-section_list_item:hover {
+    color: #3070a8;
+}
+
 /**********Offer**********/
 
 .offer {
@@ -441,6 +445,36 @@
         padding: 20px 0;
     }
 }
+
+
+/**********Contacts**********/
+
+.contacts {
+    font-size: 0;
+    font-family: 'Trebuchet MS';
+    margin: 0 auto;
+    max-width: 1400px;
+    min-height: 315px;
+    overflow: hidden;
+    position: relative;
+}
+
+.contacts_waraper {
+    width: 50%;
+    background-color: red;
+    height: 100px;
+    position: relative;
+}
+
+.contacts_map {
+    position: relative;
+    width: 50%;
+    background-color: green;
+    height: 100px;
+    float: right;
+
+}
+
 
 
 
