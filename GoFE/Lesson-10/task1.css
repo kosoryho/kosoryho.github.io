@@ -1,0 +1,40 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.portfolio {
+    padding: 50px 230px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.portfolio_header {
+
+    font-size: 41px;
+    color: #2e3a4f;
+}
+
+.portfolio_text {
+    font-size: 15px;
+    color: #909090;
+    padding: 15px 0 30px;
+}
+
+.portfolio_photo {
+    display: inline-block;
+    margin: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.portfolio_hover {
+    position: absolute;
+    width: 360px;
+    height: 260px;
+    background-color: rgba(58, 175, 248, 0.5);
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
