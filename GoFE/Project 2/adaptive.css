@@ -1,0 +1,359 @@
+@media (max-width: 1000px) {
+    body {
+        max-width: 1000px;
+        min-width: 800px;
+    }
+
+    .center {
+        width: 766px;
+    }
+
+    /*********Banner*********/
+
+    .banner {
+        background-image: url(images/banner_tablet.jpg);
+    }
+
+    .banner_header {
+        font-size: 45px;
+    }
+
+    .banner_text {
+        font-size: 25px;
+    }
+
+    /*********Form*********/
+
+    .statement {
+        top: 30px;
+        left: -20px;
+    }
+
+    .form_header {
+        font-size: 20px;
+    }
+
+    .statement_button {
+        font-size: 20px;
+    }
+
+    /*********About*********/
+
+    .about {
+        padding: 28px 0 34px;
+    }
+
+    .about_wrapper {
+        width: 52%;
+    }
+
+    .about_paragraph:last-child {
+        padding-top: 5px;
+    }
+
+    /*********Point*********/
+
+    .point_header {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    .point_item {
+        float: none;
+        width: 100%;
+        margin: 0;
+        height: 180px;
+        box-sizing: content-box;
+        padding-bottom: 34px;
+    }
+
+    .point_item_img {
+        float: left;
+        padding-right: 10px;
+    }
+
+    .point_item_header {
+        text-align: left;
+        padding-top: 0;
+    }
+
+    .point_item_text {
+        text-align: left;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .point_item_button {
+        margin: 0;
+        float: left;
+    }
+
+    /*********Comments top*********/
+
+    .comments_top {
+        padding-bottom: 60px;
+    }
+
+    .comments_header {
+        font-size: 20px;
+    }
+
+    .comments_wrapper {
+        width: 70%;
+    }
+
+    .comments_paragraph {
+        word-wrap: break-word;
+    }
+
+    /*********Comments bottom*********/
+
+    .get_started_button {
+        font-size: 20px;
+        width: 470px;
+    }
+
+    .get_started_text:after {
+        top: -5px;
+    }
+
+    .comments_photo {
+        right: 0;
+    }
+
+    /*********Footer*********/
+
+    footer .connect-us {
+        padding-top: 0;
+    }
+
+    .created {
+        float: left;
+        width: 60%;
+        line-height: 1.3em;
+    }
+}
+
+@media (max-width: 799px) {
+    body {
+        max-width: 800px;
+        min-width: 320px;
+    }
+
+    .center {
+        width: 310px;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    .company {
+        float: none;
+    }
+
+    .company_logo {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .company_name {
+        float: none;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .connect-us {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        padding: 12px 12px 0 12px;
+        width: 172px;
+        border-top: 1px solid #2980b9;
+    }
+
+    /*********Banner*********/
+
+    .banner_container {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding-top: 35px;
+    }
+
+    .banner_header {
+        font-size: 40px;
+        line-height: 1.5em;
+    }
+
+    .banner_text {
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+
+    /*********Form*********/
+
+    .banner_form {
+        float: none;
+    }
+
+    .statement {
+        width: 300px;
+        top: -80px;
+        left: 0;
+    }
+
+    select.form_item {
+        background-position: 230px;
+    }
+
+    /*********About*********/
+
+    .about {
+        padding: 480px 0 0;
+    }
+
+    .about_wrapper {
+        width: 100%;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    /*********Point*********/
+
+    .point_header {
+        text-align: center;
+    }
+
+    .point_item {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .point_item_img {
+        float: none;
+        padding: 0;
+    }
+
+    .point_item_header {
+        text-align: center;
+        padding: 25px 0;
+    }
+
+    .point_item_text {
+        text-align: center;
+        padding: 0 5px 25px;
+    }
+
+    .point_item_button {
+        float: none;
+        margin: 0 auto;
+    }
+
+    /*********Comments top*********/
+
+    .comments_top {
+        padding: 40px 0 155px;
+    }
+
+    .comments_header {
+        float: none;
+        text-align: center;
+        line-height: 1.5em;
+        padding-bottom: 20px;
+    }
+
+    .comments_navigation {
+        float: none;
+        text-align: center;
+        padding-bottom: 55px;
+    }
+
+    .comments_wrapper {
+        width: 100%;
+        text-align: left;
+    }
+
+    .comments_paragraph:before {
+        top: -35px;
+    }
+    
+    .comments_person:after {
+        top: 40px;
+    }
+
+    /*********Comments bottom*********/
+
+    .comments_bottom {
+        padding: 0;
+        height: 242px;
+p    }
+
+    .comments_bottom .center {
+        padding: 0 5px;
+
+    }
+
+    .get_started_button {
+        width: 100%;
+        text-align: center;
+        line-height: 1.5em;
+        padding-bottom: 55px;
+        z-index: 3;
+        position: absolute;
+        top: 60px;
+    }
+
+    .get_started_text:after {
+        top: 65px;
+        left: 43%;
+    }
+
+    .comments_photo {
+        bottom: -242px;
+        left: 50px;
+    }
+
+    /*********Footer*********/
+    
+    footer {
+        padding: 32px 0 70px;
+    }
+
+    footer .company {
+        float: none;
+    }
+
+    footer .company_logo {
+        float: none;
+        margin: 0 auto;
+    }
+
+    footer   .company_name {
+        float: none;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 10px;
+        width: auto;
+    }
+
+    footer .connect-us {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        padding: 12px 12px 0 12px;
+        width: 172px;
+        border-top: 1px solid #2980b9;
+    }
+
+    .created {
+        float: none;
+        width: auto;
+        text-align: center;
+        display: block;
+        padding: 65px 25px 0;
+    }
+
+
+}

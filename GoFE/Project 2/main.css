@@ -18,8 +18,10 @@
 
 body {
     max-width: 1920px;
+    min-width: 1000px;
     margin: 0 auto;
     font-family: Helvetica, Arial;
+    font-size: 0;
 }
 
 .center {
@@ -32,19 +34,30 @@ header {
     width: 100%;
     color: #fff;
     background-color: #3498db;
+    padding: 12px 0;
 }
 
-.logo {
+.company {
+    float: left;
+}
+
+.company_logo {
     display: block;
     float: left;
-    padding: 12px 0;
+}
+
+.company_name {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    float: left;
+    padding: 12px 0 0 10px;
 }
 
 .connect-us {
     float: right;
-    padding: 29px 0;
     font-size: 13px;
-    vertical-align: bottom;
+    margin-top: 18px;
 }
 
 .social_connect {
@@ -54,8 +67,12 @@ header {
 }
 
 .social {
-    float: right;
-    padding: 0 4px;
+    float: left;
+    padding-right: 8px;
+}
+
+.social:last-child {
+    padding-right: 0;
 }
 
 .social a {
@@ -72,6 +89,13 @@ header {
     color: #3498db;
 }
 
+.social a:hover {
+    background-color: #014573;
+    border-color: #014573;
+    color: #fff;
+    transition: .3s;
+}
+
 /*********Banner*********/
 
 .banner {
@@ -83,6 +107,7 @@ header {
 .banner_container {
     padding: 80px 0 110px;
     width: 56%;
+    float: left;
 }
 
 .banner_header {
@@ -96,14 +121,19 @@ header {
 
 /*********Form*********/
 
+.banner_form {
+    float: left;
+    position: relative;
+}
+
 .statement {
     width: 360px;
     padding: 30px 20px 36px;
     background-color: #fff;
     border-bottom: 5px solid #3498db;
     position: absolute;
-    top: 107px;
-    right: 470px;
+    top: 30px;
+    left: 76px;
 }
 
 .field-group {
@@ -138,12 +168,14 @@ header {
     font-family: Helvetica, Arial;;
 }
 
-.form_item:-moz-placeholder { /* Firefox 18- */
+.form_item:-moz-placeholder {
+    /* Firefox 18- */
     color: #333;
     font-family: Helvetica, Arial;;
 }
 
-.form_item::-moz-placeholder {  /* Firefox 19+ */
+.form_item::-moz-placeholder {
+    /* Firefox 19+ */
     color: #333;
     font-family: Helvetica, Arial;;
 }
@@ -155,6 +187,9 @@ header {
 
 select.form_item {
     background: #f2f2f2 url("images/arrow.png") no-repeat 290px center;
+    cursor: pointer;
+    color: #333;
+    font-family: Helvetica, Arial;;
 }
 
 .statement_button {
@@ -164,12 +199,261 @@ select.form_item {
     outline: none;
     color: #fff;
     padding: 10px 74px;
-    margin: 0 auto;
     display: block;
     margin: 20px auto 0;
 }
 
+.statement_button:hover {
+    background-color: #e72222;
+    cursor: pointer;
+}
+
+/*********About*********/
+
+.about {
+    background-color: #f2f2f2;
+    padding: 34px 0 66px;
+    border-bottom: 1px solid #e8e8e8;
+    color: #333;
+}
+
+.about_wrapper {
+    width: 58%;
+}
+
+.about_header {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+.about_paragraph {
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+
+/*********Point*********/
+
+.point {
+    border-bottom: 1px solid #e8e8e8;
+    color: #333;
+}
+
+.point_header {
+    font-size: 25px;
+    color: #3498db;
+    text-transform: uppercase;
+    padding: 22px 0;
+}
+
+.point_item {
+    width: 290px;
+    float: left;
+    margin-right: 60px;
+    font-size: 13px;
+    padding-bottom: 23px;
+}
+
+.point_item:last-child {
+    margin: 0;
+}
+
+.point_item_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.point_item_header {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.point_item_text {
+    text-align: center;
+    line-height: 1.5em;
+    height: 115px;
+    overflow: hidden;
+}
+
+.point_item_button {
+    text-transform: uppercase;
+    text-align: center;
+    width: 52px;
+    height: 52px;
+    margin: 20px auto 0;
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+    padding: 19px 0;
+    display: block;
+    color: #333;
+}
 
 
+.point_item_button:hover {
+    background-color: #f2f2f2;
+}
+
+/*********Comments top*********/
+
+.comments_top {
+    padding: 35px 0 70px;
+}
+
+.comments_header {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #3498db;
+    padding-bottom: 60px;
+    float: left;
+}
+
+.comments_navigation {
+    float: right;
+}
+
+.comments_navigation_button {
+    padding-left: 2px;
+    display: inline-block;
+}
+
+.comments_navigation_button a {
+    background: url("images/nav_arrow.png") no-repeat center;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+}
+
+.comments_navigation_button a:hover {
+    background: url("images/nav_arrow_hover.png") #f2f2f2 no-repeat center;
+}
+
+.comments_navigation_button .button_left {
+    transform: rotate(180deg) ;
+}
+
+.comments_wrapper {
+    font-size: 13px;
+    float: left;
+    width: 75%;
+    color: #333;
+}
+
+.comments_paragraph {
+    position: relative;
+}
+
+.comments_paragraph:before {
+    content: url("images/quotes.png");
+    position: absolute;
+    transform: rotate(180deg);
+    top: -45px;
+    left: 0;
+}
 
 
+.comments_person {
+    position: relative;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: bold;
+    padding-top: 1.5em;
+}
+
+.comments_person:after {
+    content: url("images/quotes.png");
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+/*********Comments bottom*********/
+
+.comments_bottom {
+    background-color: #f2f2f2;
+    padding: 68px 0 63px;
+}
+
+.comments_bottom .center {
+    position: relative;
+}
+
+.get_started_button {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    background-color: #e74c3c;
+    width: 540px;
+    text-transform: uppercase;
+    padding: 16px 23px 15px 30px;
+}
+
+.get_started_button:hover {
+    background-color: #e72222;
+}
+
+.get_started_text {
+    position: relative;
+}
+
+.get_started_text:after {
+    content: '';
+    position: absolute;
+    background: url("images/get_started_arrow.png") no-repeat center;
+    top: -3px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.comments_photo {
+    content: url("images/comments_img.png");
+    position: absolute;
+    display: block;
+    right: 6px;
+    bottom: -63px;
+}
+
+/*********Footer*********/
+
+footer {
+    background-color: #3498db;
+    padding: 54px 0 80px;
+    border-top: 1px solid #99c8e7;
+    color: #fff;
+}
+
+footer .company {
+    float: left;
+    padding-right: 10px;
+}
+
+footer .company_logo {
+    float: left;
+}
+
+footer .company_name {
+    padding-top: 0;
+    width: 178px;
+    line-height: 1em;
+    border-right: 1px solid #2980b9;
+}
+
+footer .connect-us {
+    float: left;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.created {
+    font-size: 13px;
+    float: left;
+    line-height: 2em;
+}
