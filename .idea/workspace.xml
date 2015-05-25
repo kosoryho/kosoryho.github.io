@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f65f77ed-ca73-45d6-8d86-c7c39f89eea1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoFE/Project 2/index.html" afterPath="$PROJECT_DIR$/GoFE/Project 2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoFE/Project 2/main.css" afterPath="$PROJECT_DIR$/GoFE/Project 2/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kosoryho.github.io.iws" />
@@ -71,8 +71,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/GoFE/Project 2/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4271739">
-                  <caret line="418" column="19" selection-start-line="418" selection-start-column="19" selection-end-line="418" selection-end-column="19" />
+                <state vertical-scroll-proportion="0.3347826">
+                  <caret line="416" column="0" selection-start-line="416" selection-start-column="0" selection-end-line="416" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -146,9 +146,9 @@
         <option value="$PROJECT_DIR$/GoFE/Lesson-8/Homework/task3.css" />
         <option value="$PROJECT_DIR$/GoFE/Lesson-10/task1.html" />
         <option value="$PROJECT_DIR$/GoFE/Lesson-10/task1.css" />
-        <option value="$PROJECT_DIR$/GoFE/Project 2/main.css" />
         <option value="$PROJECT_DIR$/GoFE/Project 2/adaptive.css" />
         <option value="$PROJECT_DIR$/GoFE/Project 2/index.html" />
+        <option value="$PROJECT_DIR$/GoFE/Project 2/main.css" />
       </list>
     </option>
   </component>
@@ -355,12 +355,6 @@
       <created>1428935354480</created>
       <option name="number" value="Default" />
       <updated>1428935354480</updated>
-    </task>
-    <task id="LOCAL-00003" summary="lll">
-      <created>1428939285322</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1428939285322</updated>
     </task>
     <task id="LOCAL-00004" summary="lll">
       <created>1428940230284</created>
@@ -650,7 +644,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432560960886</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="111111">
+      <created>1432561592987</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1432561592988</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="ToolWindowManager">

@@ -414,7 +414,6 @@ select.form_item {
 }
 
 .comments_photo {
-    content: url("images/comments_img.png");
     position: absolute;
     display: block;
     right: 6px;
