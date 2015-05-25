@@ -69,7 +69,7 @@
 
     .point_item_img {
         float: left;
-        padding-right: 10px;
+        padding-right: 20px;
     }
 
     .point_item_header {
@@ -124,13 +124,13 @@
     /*********Footer*********/
 
     footer .connect-us {
-        padding-top: 0;
+        padding: 0 0 5px;
     }
 
     .created {
         float: left;
         width: 60%;
-        line-height: 1.3em;
+        line-height: 1.2em;
     }
 }
 
@@ -336,6 +336,7 @@ p    }
         font-size: 20px;
         padding-top: 10px;
         width: auto;
+        border-right: none;
     }
 
     footer .connect-us {
