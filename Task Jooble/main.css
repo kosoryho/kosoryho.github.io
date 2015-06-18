@@ -91,7 +91,7 @@
 }
 
 .offer__button:before {
-    content: url("free.png");
+    content: url("free1.png");
     position: absolute;
     right: 348px;
     bottom: 40px;
