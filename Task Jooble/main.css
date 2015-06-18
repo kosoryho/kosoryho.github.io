@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.offer {
+    background-image: url(background.jpg);
+    padding: 206px 30px 230px 16px;
+    font-family: sans-serif;
+}
+
+.offer__wraper {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 180px 0 200px 50px;
+    border-radius: 15px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.offer__header {
+    text-transform: uppercase;
+    font-size: 84px;
+}
+
+.offer__text {
+    font-style: italic;
+    font-size: 56px;
+    padding: 1em 0;
+}
+
+.offer__form {
+    position: relative;
+    width: 558px;
+    font-size: 38px;
+    background-color: #837f7e;
+    color: #fff;
+    font-style: italic;
+    border: 1px solid #e6e6e6;
+    padding: 30px 45px 35px 45px;
+    outline: none;
+    resize: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-right: 78px;
+    float: left;
+}
+
+.offer__form::-webkit-input-placeholder {
+    color: #fff;
+    font-style: italic;
+}
+
+.offer__form:-moz-placeholder {
+    color: #fff;
+    font-style: italic;
+}
+
+.offer__form::-moz-placeholder {
+    color: #fff;
+    font-style: italic;
+}
+
+.offer__form:-ms-input-placeholder {
+    color: #fff;
+    font-style: italic;
+}
+
+.offer__form-email {
+    width: 516px;
+}
+
+.offer__button {
+    float: left;
+    background-color: #d42627;
+    text-transform: uppercase;
+    margin-left: 44px;
+    padding: 33px 66px ;
+    font-size: 38px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.offer__button:before {
+    content: url("free.png");
+    position: absolute;
+    right: 374px;
+    bottom: 0px;
+}
