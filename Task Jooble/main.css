@@ -22,6 +22,7 @@
     padding: 180px 0 200px 50px;
     border-radius: 15px;
     overflow: hidden;
+    position: relative;
 }
 
 .offer__header {
@@ -77,7 +78,6 @@
 }
 
 .offer__button {
-    position: relative;
     float: left;
     background-color: #d42627;
     text-transform: uppercase;
@@ -86,11 +86,12 @@
     font-size: 38px;
     border-radius: 12px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .offer__button:before {
     content: url("free.png");
     position: absolute;
-    right: 0px;
-    bottom: 0px;
+    right: 348px;
+    bottom: 40px;
 }
